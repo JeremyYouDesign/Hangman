@@ -60,7 +60,7 @@ var gameObject = {
     isMatch: null,
     isRepeat: null,
 
-    guessesRemaining: 10,
+    guessesRemaining: 11,
     loseCount: 0,
     winCount: 0,
 
@@ -78,7 +78,7 @@ var gameObject = {
         this.incorrectGuesses = [];
         this.correctGuesses = [];
         this.correctGuessesInOrder = [];
-        this.guessesRemaining = 10;
+        this.guessesRemaining = 11;
     },
 
     checkRepeat: function() {
